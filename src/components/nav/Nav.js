@@ -1,10 +1,11 @@
 import React from 'react';
+import './Nav.scss';
 
 const Nav = () => {
   return (
-    <div>
-      <h1>hello!</h1>
-    </div>
+    <nav className="nav">
+      <div className="logo">Wecode</div>
+    </nav>
   );
 };
 
