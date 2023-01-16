@@ -2,7 +2,7 @@ import React from 'react';
 import './Main.scss';
 
 const Main = () => {
-  return <div>메인입니다</div>;
+  return <section className="main">메인입니다</section>;
 };
 
 export default Main;
