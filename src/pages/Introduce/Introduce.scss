@@ -1,0 +1,40 @@
+@import "../../style/variables.scss";
+
+.introduce {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  .cardContainer {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    .mainImage {
+      width: 200px;
+      border-radius: 10px;
+    }
+
+    .name {
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: 700;
+
+      &:hover {
+        color: green;
+      }
+    }
+
+    .batch {
+      margin: 5px 0 10px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .link {
+      display: block;
+      color: $black-color;
+    }
+  }
+}
